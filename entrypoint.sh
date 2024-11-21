@@ -151,6 +151,8 @@ else
   FINAL_JSON=$JSON
 fi
 
+set -x
+
 CODE=0
 RESPONSE=$(
   curl \
